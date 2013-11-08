@@ -1,0 +1,30 @@
+{
+   "vaccineName": "HEPB Vaccination",
+   "vaccineSchedule": [
+       {
+           "vaccineID": "HEPB0",
+           "startDay": "0",
+           "endDay": "1",
+           "gapInWeeks": "0",
+           "isApplicableAfterEndDay": "false",
+           "isBeforeCompulsory":"false"
+       },
+       {
+           "vaccineID": "HEPB1",
+           "startDay": "42",
+           "endDay": "3612",
+           "gapInWeeks": "4",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"false"
+       },
+       {
+           "vaccineID": "HEPB2",
+           "startDay": "70",
+           "endDay": "3640",
+           "gapInWeeks": "4",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+           }
+   ],
+   "type": "MasterVaccine"
+}

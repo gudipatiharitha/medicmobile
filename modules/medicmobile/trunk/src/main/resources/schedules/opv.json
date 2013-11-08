@@ -1,0 +1,46 @@
+{
+   "vaccineName": "OPV Vaccination",
+   "vaccineSchedule": [
+       {
+           "vaccineID": "OPV0",
+           "startDay": "0",
+           "endDay": "15",
+           "gapInWeeks": "0",
+           "isApplicableAfterEndDay": "false",
+           "isBeforeCompulsory":"false"
+       },
+       {
+           "vaccineID": "OPV1",
+           "startDay": "42",
+           "endDay": "3584",
+           "gapInWeeks": "4",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"false"
+       },
+       {
+           "vaccineID": "OPV2",
+           "startDay": "70",
+           "endDay": "3612",
+           "gapInWeeks": "4",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+       },
+       {
+           "vaccineID": "OPV3",
+           "startDay": "98",
+           "endDay": "3640",
+           "gapInWeeks": "4",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+       },
+       {
+           "vaccineID": "OPVB",
+           "startDay": "483",
+           "endDay": "728",
+           "gapInWeeks": "26",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+       }
+   ],
+   "type": "MasterVaccine"
+}

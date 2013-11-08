@@ -1,0 +1,38 @@
+{
+   "vaccineName": "DPT Vaccination",
+   "vaccineSchedule": [
+       {
+           "vaccineID": "DPT1",
+           "startDay": "42",
+           "endDay": "730",
+           "gapInWeeks": "0",
+           "isApplicableAfterEndDay": "false",
+           "isBeforeCompulsory":"false"
+       },
+       {
+           "vaccineID": "DPT2",
+           "startDay": "70",
+           "endDay": "3612",
+           "gapInWeeks": "4",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+       },
+       {
+           "vaccineID": "DPT3",
+           "startDay": "98",
+           "endDay": "3640",
+           "gapInWeeks": "4",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+       },
+       {
+           "vaccineID": "DPTB",
+           "startDay": "483",
+           "endDay": "3668",
+           "gapInWeeks": "26",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+       }
+   ],
+   "type": "MasterVaccine"
+}

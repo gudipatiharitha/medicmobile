@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <playtext>Thank you for your recording</playtext>
+    <collectdtmf l="$maxDigits" t="$transitionKeyEndMarker" o="$maxTimeout">
+      #set ($url = "$scheme://$host$contextPath$servletPath/ivr?provider=$provider&ln=$language&role=$role&tree=$tree&recordedAudioUrl=$recordedAudioUrl")
+      <playtext>Press 1 to forward to all care givers and local volunteers or press 2 to forward to only local volunteers</playtext>
+    </collectdtmf>
+    <gotourl>$escape.escapeXml($url)</gotourl>
+</response>

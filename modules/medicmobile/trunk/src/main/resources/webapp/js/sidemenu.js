@@ -1,0 +1,13 @@
+document.write(' <div id="sideMenu" class="printFalse"> ' 
+    +'<div id="accordion" >'
+    +'<h3>Manage Anganwadi Centers</h3><div><div class="accordionMenu changeWindow" id = "registerAnganwadiCenter"><a href="/motech-platform-server/module/medicmobile/api/anganwadiCenterForm">Register Anganwadi center</a></div><div class="p accordionMenu changeWindow" id="viewAnganwadiCenter"><a href="/motech-platform-server/module/medicmobile/api/viewAnganwadiCenters">View Anganwadi center</a></div></div><h3>Manage Personnel</h3> <div><div class="p accordionMenu changeWindow" id="registerNewPersonnel"><a href="/motech-platform-server/module/medicmobile/api/staff">Register New Personnel</a>	 </div>	'
+    +'<div class="p accordionMenu changeWindow" id="viewPersonnel"><a href="/motech-platform-server/module/medicmobile/api/viewPersonnel">View Personnel</a>	'
+    +'</div></div><h3>Manage Beneficiaries</h3><div><div class="p accordionMenu changeWindow" id="enrollMother"><a href="/motech-platform-server/module/medicmobile/api/CareGiver">Enroll Mother</a>	</div><div class="p accordionMenu changeWindow" id="viewMother"><a href="/motech-platform-server/module/medicmobile/api/viewCareGivers">View Mother</a></div> </div><h3>Vaccines</h3><div><div id="/motech-platform-server/module/medicmobile/api/viewVaccine" class="accordionMenu changeWindow"><a href="/motech-platform-server/module/medicmobile/api/viewVaccine">View Vaccine</a></div>'
+    +'</div><h3>Manage SMS</h3><div><div class="p accordionMenu changeWindow" id="addNewTemplate"><a href="#">Add New Template</a></div><div class="p accordionMenu changeWindow" id="triggerSMS"><a href="/motech-platform-server/module/medicmobile/api/triggerSMS">Trigger SMS</a></div><div class="p accordionMenu changeWindow" id="viewTemplate"><a href="#">View Template</a></div><div class="p accordionMenu changeWindow" id="sendSMS"><a href="/motech-platform-server/module/medicmobile/api/sendSMS">Send SMS</a> </div></div>'
+    +'<h3>View Reports</h3><div><div class="p accordionMenu changeWindow" id="weeklyReports"><a href="/motech-platform-server/module/medicmobile/api/getWeeklyReport">Weekly Reports</a> </div><div class="p accordionMenu changeWindow" id="performanceReports"><a href="/motech-platform-server/module/medicmobile/api/getPerformanceReport">Performance Reports</a></div></div> </div></div>');
+
+$(function(){
+      $("#logout").bind('click', function() {
+            window.location.href="motech-platform-server/j_spring_security_logout";
+      });
+});

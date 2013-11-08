@@ -1,0 +1,30 @@
+{
+   "vaccineName": "VITAMIN Vaccination",
+   "vaccineSchedule": [
+       {
+           "vaccineID": "VITA1",
+           "startDay": "273",
+           "endDay": "1825",
+           "gapInWeeks": "0",
+           "isApplicableAfterEndDay": "false",
+           "isBeforeCompulsory":"false"
+       },
+       {
+           "vaccineID": "VITA2",
+           "startDay": "486",
+           "endDay": "3650",
+           "gapInWeeks": "26",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+       },
+       {
+           "vaccineID": "VITA3",
+           "startDay": "669",
+           "endDay": "3833",
+           "gapInWeeks": "26",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+           }
+   ],
+   "type": "MasterVaccine"
+}

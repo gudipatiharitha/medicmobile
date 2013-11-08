@@ -1,0 +1,14 @@
+{
+   "vaccineName": "MMR Vaccination",
+   "vaccineSchedule": [
+       {
+           "vaccineID": "MMR",
+           "startDay": "486",
+           "endDay": "3650",
+           "gapInWeeks": "0",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"false"
+       }
+   ],
+   "type": "MasterVaccine"
+}

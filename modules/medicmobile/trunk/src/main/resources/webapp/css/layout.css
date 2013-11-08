@@ -1,0 +1,371 @@
+body {
+	font: 80% "Trebuchet MS", sans-serif !important;
+	margin: 0px auto;
+	width: 1000px;
+}
+
+.demoHeaders {
+	margin-top: 2em;
+}
+
+#dialog-link {
+	padding: .4em 1em .4em 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+#dialog-link span.ui-icon {
+	margin: 0 5px 0 0;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}
+
+#icons {
+	margin: 0;
+	padding: 0;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#icons li {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
+
+#icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+
+.fakewindowcontain .ui-widget-overlay {
+	position: absolute;
+}
+
+.left {
+	width: 200px;
+	margin-right: 30px;
+	float: left;
+	text-align: left;
+	vertical-align: middle;
+	line-height: 20px;
+	padding-left: 50px;
+}
+
+.empty {
+	width: 20px;
+	float: left;
+	height: 200px;
+}
+
+.leftinner {
+	text-align: left;
+	width: 150px;
+	padding-left: 50px;
+	margin-right: 30px;
+	float: left;
+	vertical-align: middle;
+	line-height: 20px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+#listAnganwadiCenter {
+	
+}
+
+.tabs {
+	float: left;
+	width: 99%;
+}
+
+#content {
+	width: 660px;
+	margin-left: 30px;
+	float: left;
+	height: 500px;
+}
+
+.clear {
+	height: 5px;
+	clear: both;
+}
+
+#listPersonnel,#anganwadiCenter {
+	width: 99%;
+}
+
+.title {
+	text-align: left;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.p {
+	padding-top: 3px;
+}
+
+#ui-accordion-accordian1-header-0 span {
+	display: none;
+}
+
+.subRight {
+	left: 100px;
+}
+
+#childTable_paginate {
+	display: none;
+}
+
+#logo img {
+	float: left;
+	height: 75px;
+	width: 250px;
+}
+
+a:hover {
+	color: #ff0084;
+}
+
+.basicForm {
+	margin-left: 20px;
+}
+
+#sideMenu {
+	width: 250px;
+	float: left;
+	height: 500px;
+}
+
+.legendForm {
+	padding-left: 42px;
+	width: 195px;
+}
+
+#logout {
+	float: right;
+	font-size: 15px;
+}
+
+.find,#find {
+	float: right;
+	font-size: 15px;
+	height: 35px;
+	margin-bottom: 0;
+	padding: 5px 10px;
+	width: 100px;
+}
+
+.rightButton {
+	float: right;
+}
+
+#logoTitle {
+	width: 250px;
+	text-align: center;
+	float: left;
+	height: 75px;
+	font-size: 15px;
+	padding-top: 3px;
+	color: #565656;
+}
+
+#logoTitle h1 {
+	font-size: 30px;
+}
+
+.title h1,h2 {
+	color: #3373EA;
+	margin-top: 0;
+}
+
+select {
+	width: 164px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+.dataTables_length select {
+	width: 55px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+input {
+	height: 16px;
+	margin-bottom: 5px;
+	margin-top: 0;
+	width: 160px;
+}
+
+input[type="radio"] {
+	height: 16px;
+	width: 30px;
+}
+
+input[type="checkbox"] {
+	height: 16px;
+	width: 30px;
+}
+
+.leftDialogue {
+	width: 150px;
+	float: left;
+}
+
+.label {
+	color: #3373EA;
+}
+
+.leftInnerHalf {
+	text-align: left;
+	width: 100px;
+	padding-left: 50px;
+	margin-right: 30px;
+	float: left;
+	vertical-align: middle;
+	line-height: 20px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+td {
+	text-align: center;
+}
+
+.buttonDropDown {
+	width: 165px !important;
+}
+
+.radio {
+	width: 25px;
+}
+
+.multiselect {
+	max-height: 60px;
+	min-width: 160px;
+	width: auto;
+	height: auto;
+}
+
+.validateTips {
+	color: red;
+}
+
+#localVolunteer {
+	width: 166px;
+	margin-right: 20px;
+}
+
+#anganwadiCentersID {
+	width: 166px;
+	margin-right: 20px;
+}
+
+#save {
+	margin-top: 5px;
+}
+
+.dateField {
+	width: 80px;
+}
+
+.leftHalf {
+	width: 310px;
+	float: left;
+	/* padding-left: 5px; */
+}
+
+.rightHalf {
+	width: 315px;
+	float: left;
+}
+
+.forLabel {
+	width: 100px !important;
+	float: left;
+	/* padding-top: 5px; */
+}
+
+.exceptionLabel {
+	padding-top: 0;
+	padding-left: 5px;
+}
+
+fieldset {
+	margin-left: 0;
+}
+
+.ui-accordion-content {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+.ui-datepicker-trigger {
+	padding-left: 5px;
+	height: 22px;
+	margin-bottom: -6px;
+	margin-left: -27px;
+}
+
+.ui-tabs-panel a {
+	padding-left: 0px !important;
+	text-decoration: underline;
+	color: #3373EA !important;
+}
+
+.user {
+	float: right;
+	height: 36px;
+	margin-right: 6px;
+	margin-top: 0;
+	padding-top: 0;
+	text-align: center;
+	vertical-align: middle;
+	width: 100px;
+}
+
+#userName {
+	color: #3373EA;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#userText {
+	color: #000000;
+	font-size: 11px;
+}
+
+#endChildBirthDate {
+	text-align: center;
+	padding-right: 5px;
+}
+
+#startChildBirthDate {
+	text-align: center;
+	height: 16px;
+}
+
+.leftdate {
+	padding-left: 10px;
+	display: inline;
+}
+
+.rightdate {
+	float: right;
+	margin-right: 15px;
+}
+
+.performancedate {
+	width: 150px;
+}
+
+#visitDateTextBox {
+	display: none;
+}

@@ -1,0 +1,14 @@
+{
+   "vaccineName": "Measles Vaccination",
+   "vaccineSchedule": [
+       {
+           "vaccineID": "MEASLES",
+           "startDay": "273",
+           "endDay": "1825",
+           "gapInWeeks": "0",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"false"
+       }
+   ],
+   "type": "MasterVaccine"
+}

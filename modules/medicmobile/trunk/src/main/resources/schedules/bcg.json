@@ -1,0 +1,14 @@
+{
+   "vaccineName": "BCG Vaccination",
+   "vaccineSchedule": [
+       {
+           "vaccineID": "BCG",
+           "startDay": "0",
+           "endDay": "365",
+           "gapInWeeks": "0",
+           "isApplicableAfterEndDay": "false",
+           "isBeforeCompulsory":"false"
+       }
+   ],
+   "type": "MasterVaccine"
+}

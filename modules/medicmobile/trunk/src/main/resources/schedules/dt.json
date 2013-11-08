@@ -1,0 +1,22 @@
+{
+   "vaccineName": "DT Vaccination",
+   "vaccineSchedule": [
+       {
+           "vaccineID": "DT1",
+           "startDay": "730",
+           "endDay": "1825",
+           "gapInWeeks": "0",
+           "isApplicableAfterEndDay": "false",
+           "isBeforeCompulsory":"false"
+       },
+       {
+           "vaccineID": "DT2",
+           "startDay": "851",
+           "endDay": "3650",
+           "gapInWeeks": "4",
+           "isApplicableAfterEndDay": "true",
+           "isBeforeCompulsory":"true"
+           }
+   ],
+   "type": "MasterVaccine"
+}

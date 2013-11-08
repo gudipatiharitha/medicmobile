@@ -1,0 +1,151 @@
+/**
+ * Example Print Preview site
+ *
+ *	print.css
+ *	author: Tim Connell
+ */
+
+/* -- Hide screen specific elements -- */
+#nav,#footer .footer-links,#everyPrint,#visitDate,#save,.printFalse,.dataTables_length,.dataTables_filter,.dataTables_info,.dataTables_paginate,.ui-datepicker-trigger
+	{
+	display: none !important;
+}
+/*-- Body styling --*/
+h1,h2,h3,h4,h5 {
+	font-weight: normal;
+	margin: 0.5em 0 1em;
+}
+
+#visitDateTextBox {
+	display: inline;
+}
+
+input[type=checkbox] { /* Double-sized Checkboxes */
+	-ms-transform: scale(1.35); /* IE */
+	-moz-transform: scale(1.35); /* FF */
+	-webkit-transform: scale(1.35); /* Safari and Chrome */
+	-o-transform: scale(1.35); /* Opera */
+	padding: 10px;
+}
+
+h1 {
+	font-size: 28px;
+	margin: 2em 0 0.25em;
+	color: #000;
+}
+
+h2 {
+	font-size: 24px;
+	color: #000;
+}
+
+h3 {
+	font-size: 28px;
+	color: #000;
+}
+
+h4 {
+	font-size: 16px;
+	color: #000;
+}
+
+h5 {
+	font-size: 14px;
+	color: #000;
+}
+/* -- header styling*/
+#logo img {
+	float: left;
+	height: 75px;
+	width: 250px;
+}
+
+#logoTitle {
+	width: 300px;
+	text-align: center;
+	float: left;
+	height: 75px;
+	font-size: 15px;
+	padding-top: 3px;
+	color: #565656;
+}
+
+#logoTitle h1 {
+	font-size: 30px;
+	margin-top: 25px;
+	padding-left: 50px;
+}
+
+.clear {
+	height: 5px;
+	clear: both;
+}
+
+/* -- Typography -- */
+body {
+	background: #FFF;
+	color: #000;
+	font-family: Verdana, Georgia, serif;
+	line-height: 1;
+}
+
+p,ul,ol,dl,blockquote,pre,code,form {
+	margin: 0 0 1em;
+	font-size: 12px;
+}
+
+table {
+	font-size: 16px;
+	margin: 2em 0 0;
+	width: 700px;
+}
+
+td {
+	text-align: center;
+	padding-top: 10px;
+}
+
+/* -- Style site heading -- */
+#header strong {
+	color: #000;
+	display: block;
+	font-weight: normal;
+	font-size: 3em;
+	margin: 0 0 1em;
+	padding: 0;
+	text-shadow: rgba(0, 0, 0, 0.44) 1px 1px 2px;
+}
+
+/* -- Accommodate JS driven elements --*/
+
+/* -- Footer -- */
+#footer {
+	border-top: 1px solid #cecece;
+	font-size: 0.83em;
+	margin: 2em 0 0;
+	padding: 1em 0 0;
+}
+
+.childName {
+	width: 115px;
+}
+
+.careGiverName {
+	width: 115px;
+}
+
+.vaccineName {
+	width: 115px;
+}
+
+.dueDateString {
+	width: 125px;
+}
+
+.administeredDateString {
+	width: 125px;
+}
+
+.smsCode {
+	width: 63px;
+}

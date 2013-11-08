@@ -1,0 +1,32 @@
+{
+    "outgoing": {
+        "request": {
+            "urlPath": "http://smscountry.com/SMSCwebservice_Bulk.aspx",
+            "queryParameters": {
+                "User":"shreyas",
+                "passwd":"beehyv",
+                "mobilenumber": "$recipients" ,
+                "message": "$message" ,
+                "caller_id":"911130715455"
+            },
+            "recipientsSeparator":"+",
+            "bodyParameters":{
+                "recipients":"$recipients",
+                "message":"$message",
+                "unicode":"true"
+            },
+            "authentication":{
+                "username":"motech",
+                "password":"motech"
+            }
+        },
+        "response": {
+            "success": ".*(<status>success</status>).*"
+        }
+    },
+    "incoming": {
+        "messagekey": "message",
+        "senderKey": "cid",
+        "timestampKey": "time"
+    }
+}
